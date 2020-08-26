@@ -23,7 +23,7 @@ scroll_bottom = function () {
 }
 
 submit_message = function () {
-  $('#messages').on('keydown', function (e) {
+  $('#message_body').on('keydown', function (e) {
     if(e.keyCode == '13'){
       $('button').click();
       e.target.value = "";
